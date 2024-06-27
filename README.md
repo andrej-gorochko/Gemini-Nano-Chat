@@ -1,4 +1,4 @@
-<h1>Gemini Nano</h1>
+<h1>Gemini Nano Chat Chrome</h1>
 <p>Gemini Nano доступна в Chrome Canary, который можно скачать по <a href="https://www.google.com/chrome/canary/">ссылке</a>.</p>
 
 <h2>Как включить Gemini Nano в Chrome:</h2>
