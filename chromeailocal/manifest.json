@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Chat for Gemini Nano Chrome",
+  "version": "1.4",
+  "description": "Расширение для чата с использованием Gemini API, разработанное Goroshcko.ru",
+  "permissions": ["storage", "activeTab", "notifications"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  }
+}
