@@ -46,4 +46,5 @@ await model.prompt("Who are you?");
 <p>или установите распакованное решение.</p>
 <p>Скриншот</p>
 <img src="https://goroshcko.ru/wp-content/uploads/2024/06/snimok-jekrana-2024-06-26-113407.png"><br>
+<h3>Автор расширения: Горошко Андрей</h3>
 <p>Разработано <a href="https://goroshcko.ru/" target="_blank">Goroshcko.ru</a></p>
