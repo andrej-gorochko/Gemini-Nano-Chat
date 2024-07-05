@@ -8,6 +8,7 @@
     <li>Включите Optimization Guide on Device Model: Введите chrome://flags/#optimization-guide-on-device-model в адресную строку и установите значение «Enabled BypassPerfRequirement».</li>
     <li>Перезапустите Chrome.</li>
     <li>Перейдите в chrome://components и проверьте наличие обновления для «Optimization Guide On Device Model» (версия должна быть 2024.6.5.2205 или выше).</li>
+    <li>Если вы не видите Optimization Guide On Device Model, убедитесь, что вы правильно установили флаги выше, перезапустите браузер и обновите страницу.</li>
     <li>Проверьте настройку: откройте веб-страницу, нажмите клавишу F12 и проверьте в консоли.window.ai</li>
 </ol>
 
